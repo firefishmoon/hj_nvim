@@ -1,13 +1,13 @@
 " AnyJump
 " Normal mode: Jump to definition under cursor
-nnoremap <leader>j :AnyJump<CR>
+nnoremap <leader>f :AnyJump<CR>
 " Visual mode: jump to selected text in visual mode
-xnoremap <leader>j :AnyJumpVisual<CR>
+xnoremap <leader>f :AnyJumpVisual<CR>
 " Normal mode: open previous opened file (after jump)
 nnoremap <leader>ab :AnyJumpBack<CR>
 " Normal mode: open last closed search window again
 nnoremap <leader>al :AnyJumpLastResults<CR>
-nnoremap <C-j> :AnyJumpArg<space>
+nnoremap <C-f> :AnyJumpArg<space>
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 " font
