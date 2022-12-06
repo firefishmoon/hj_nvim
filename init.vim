@@ -19,6 +19,8 @@ Plug 'pechorin/any-jump.vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 " for file content search
 Plug 'rking/ag.vim'
+" fzf a file finder 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 let g:any_jump_disable_default_keybindings = 1
