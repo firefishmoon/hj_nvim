@@ -14,16 +14,26 @@ Plug 'goolord/alpha-nvim'
 "Plug 'nathanaelkane/vim-indent-guides'
 Plug 'lukas-reineke/indent-blankline.nvim'
 " search code definition & usage & reference
-Plug 'pechorin/any-jump.vim'
+"Plug 'pechorin/any-jump.vim'
 " theme
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 " for file content search
 Plug 'rking/ag.vim'
 " fzf a file finder 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'frazrepo/vim-rainbow'
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'octol/vim-cpp-enhanced-highlight'
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 call plug#end()
 
-let g:any_jump_disable_default_keybindings = 1
+"let g:any_jump_disable_default_keybindings = 1
+let g:rainbow_active = 1
 
 if has("nvim")
     lua require "init" 

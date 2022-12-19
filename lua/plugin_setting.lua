@@ -25,3 +25,6 @@ require'alpha'.setup(require'alpha.themes.dashboard'.config)
 --        separator_style = "thin"
 --    }
 --} 
+
+
+

@@ -14,10 +14,10 @@ vim.api.nvim_set_keymap("n", "J", "10jzz", {silent = true, noremap = true})
 vim.api.nvim_set_keymap("n", "K", "10kzz", {silent = true, noremap = true})
 
 -- windows moving
-vim.api.nvim_set_keymap("n", "<leader>h", "<C-w>h", {silent = true, noremap = true})
-vim.api.nvim_set_keymap("n", "<leader>j", "<C-w>j", {silent = true, noremap = true})
-vim.api.nvim_set_keymap("n", "<leader>k", "<C-w>k", {silent = true, noremap = true})
-vim.api.nvim_set_keymap("n", "<leader>l", "<C-w>l", {silent = true, noremap = true})
+--vim.api.nvim_set_keymap("n", "<C>h", "<C-w>h", {silent = true, noremap = true})
+--vim.api.nvim_set_keymap("n", "<C>j", "<C-w>j", {silent = true, noremap = true})
+--vim.api.nvim_set_keymap("n", "<C>k", "<C-w>k", {silent = true, noremap = true})
+--vim.api.nvim_set_keymap("n", "<C>l", "<C-w>l", {silent = true, noremap = true})
 
 
 
