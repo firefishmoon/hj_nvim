@@ -19,7 +19,7 @@ vim.api.nvim_set_keymap("n", "K", "10kzz", {silent = true, noremap = true})
 --vim.api.nvim_set_keymap("n", "<C>k", "<C-w>k", {silent = true, noremap = true})
 --vim.api.nvim_set_keymap("n", "<C>l", "<C-w>l", {silent = true, noremap = true})
 
-
+vim.api.nvim_set_keymap("i", "<C-s>", "<Esc>:w<CR>a", {silent = true, noremap = true})
 
 vim.api.nvim_set_keymap("n", "dw", "diw", {silent = true, noremap = true})
 
